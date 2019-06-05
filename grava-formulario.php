@@ -28,7 +28,7 @@ $conn->query($sql);
 	//, now());
 
 // Fecha a Conexão
- mysql_close($conexao);
+ $conn = null;
 
 	//$result_usuario = "INSERT INTO primeiro-form-teste (nome, email, senha, urgencia, mensagem, created) VALUES (".$nome.",".$email.",".$senha.",".$urgencia.",".$mensagem.",NOW())";
 	//$resultado_usuario = mysqli_query($conn, $result_usuario);

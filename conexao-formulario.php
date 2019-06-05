@@ -1,8 +1,10 @@
 <?php
-
-	$username = "root";
-	$password = "admin";
-	$conn = new PDO('mysql:host=localhost;dbname=projeto_login', $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);	   
+$conn = new mysqli ("localhost", "root", "admin", "projeto_login");
+	/* check connection */
+if ($conn->connect_errno) {
+    printf("Connect failed: %s\n", $conn->connect_error);
+    exit();
+}
+	   
 
 ?>
