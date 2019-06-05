@@ -1,0 +1,65 @@
+h1, h2 {
+	font-family: sans-serif;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+}
+h3 {
+	font-size: 15pt;
+	color: red;
+}
+legend {
+	font-family: sans-serif;
+	margin: 5px;
+	text-align: center;
+	font-size: 20pt;
+}
+.container {
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+}
+input#cLogin, input#cSenha {
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.1);
+	outline: none;
+}
+input[type=submit]{
+	background-color: #070043;
+	color: white;
+	border: none;
+	outline: none;
+	display: block;
+	height: 55px;
+	width: 400px;
+	border-radius: 30px;
+	font-size: 16pt;
+	padding: 10px 20px;
+	margin: 10px;
+}
+input#cadastrar{
+	float: right;
+	background-color: rgb(69, 152, 255);
+}
+div#corpo-form {
+	width: 420px;
+	margin: 30px auto 140px auto;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-size: 18pt;
+}
+a:hover {
+	text-decoration: underline;
+}
