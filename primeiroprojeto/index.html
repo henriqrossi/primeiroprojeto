@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Primeiro Projeto - Login Básico</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+	<link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+	<header>
+		<h1>PÁGINA DE LOGIN</h1>
+		<h2>Faça aqui seu Cadastro ou seu Login</h2>	
+	</header>
+	<hr>
+	<div id="corpo-form">
+		<form id="form-login" method="POST" action="valida.php">
+			<legend>LOGIN</legend>
+			<input type="email" name="login" id="cLogin" placeholder="Usuário" />
+			<input type="password" name="senha" id="cSenha" placeholder="Senha"/>
+			<input type="submit" value="Login" id="logar">
+			<a href="formulario.html">Ainda não é inscrito? <strong>Cadastre-se!</strong></a>
+		</form>
+	</div>	
+	<hr>
+</body>
+</html>
